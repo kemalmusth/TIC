@@ -62,3 +62,35 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+=====================================================================================================================================================================
+
+Langkah-langkah menjalankan web dari github
+
+1. Download repository github 
+2. Extract file di folder D
+3. Buka Git bash here di folder tersebut
+4. ketikan code .
+5. open terminal lalu ketikan composer install(php versi 8 atau lebih)
+6. npm install (harus ada node js)
+7. ubah env example menjadi .env
+8. ganti app name -> TIC
+9. buat database baru tanpa isi
+10. balik ke .env samakan dengan database yg sudah di buat simpan di DB_DATABASE
+11. buka terminal lalu ketikkan php artisan key:generate dan pastikan app_key terisi! dalam file .env
+12. php artisan migrate dan pastikan database terupdate di database xampp
+13. buka terminal baru ketik npm run dev
+14. kembali ke terminal pertama ketik php artisan serve
+15. Selesai silahkan ctrl+click localhost nya 127.0.0.1:8000 web bisa dijalankan selamat mencoba.
+
+*notes
+
+requirement :
+1. VScode sudah terinstall
+2. Composer sudah terinstall
+3. Gitbash sudah terinstall
+4. Node js sudah terinstall
+5. Xampp sudah terinstall
+6. Jika ketika menjalankan npm : command not found, silahkan ketikan di terminal folder tersebut npm -g package atau search cara install node js global.
+
+
